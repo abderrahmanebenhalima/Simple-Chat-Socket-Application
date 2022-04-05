@@ -1,3 +1,3 @@
 # Programmation des applications réseaux TCP/IP (Socket Programming)
-Pour les etudiants Master Réseaux et Télécoms
+Pour les étudiants Master Réseaux et Télécoms
 
