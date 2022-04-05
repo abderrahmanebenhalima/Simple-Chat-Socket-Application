@@ -10,12 +10,12 @@ import java.util.Scanner;
 public class Serveur {
 
     public static void main(String[] args) {
-        Scanner javain = new Scanner(System.in);
-Socket socket = null;
-ServerSocket serverSocket = null;
-DataInputStream in = null;
-DataOutputStream out = null;
-String emis="",recu="" ;
+    Scanner javain = new Scanner(System.in);
+    Socket socket = null;
+    ServerSocket serverSocket = null;
+    DataInputStream in = null;
+    DataOutputStream out = null;
+    String emis="",recu="" ;
 try {
 //création du socket du serveur
 serverSocket = new ServerSocket(2105);
@@ -50,7 +50,5 @@ if (recu.contains("bye")) {
         } finally {
             System.out.println("Communication terminée");
         }
-
-        
     }
 }
