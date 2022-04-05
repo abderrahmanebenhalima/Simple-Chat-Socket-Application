@@ -9,10 +9,10 @@ public class Client {
 
     public static void main(String[] args) {
         Scanner javain = new Scanner(System.in);
-Socket socket = null;
-DataInputStream in = null;
-DataOutputStream out = null;
-String emis="",recu="" ;
+	Socket socket = null;
+	DataInputStream in = null;
+	DataOutputStream out = null;
+	String emis="",recu="" ;
 try {
  //création d'un socket avec l’adresse IP du destinataire et numéro de port
  socket = new Socket("192.168.1.15", 2105);
@@ -44,8 +44,6 @@ while (true) {
             e.printStackTrace();
         } finally {
             System.out.println("Communication terminée");
-        }
-
-        
+        }  
     }
 }
